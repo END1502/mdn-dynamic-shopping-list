@@ -21,5 +21,10 @@ submitBtn.addEventListener('click', (event) => {
     delBtn.textContent = "Delete";
 
     list.appendChild(listItem);
+
+
+    delBtn.addEventListener('click', () => {
+        listItem.remove();
+    })
 })
 
