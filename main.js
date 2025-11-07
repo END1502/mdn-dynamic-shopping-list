@@ -22,9 +22,10 @@ submitBtn.addEventListener('click', (event) => {
 
     list.appendChild(listItem);
 
-
     delBtn.addEventListener('click', () => {
         listItem.remove();
+        itm.focus();
     })
 })
 
+itm.focus();
