@@ -14,5 +14,8 @@ submitBtn.addEventListener('click', (event) => {
     const span = document.createElement("span");
     const delBtn = document.createElement("button");
 
+    listItem.appendChild(span);
+    listItem.appendChild(delBtn);
+
 })
 
